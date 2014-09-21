@@ -31,7 +31,7 @@ int main()
 		{
 			cout <<"error loading image\n";
 		}
-		if(!npc_test.load("lofi_char.png",2, 16,40, 40, 16,16))
+		if(!npc_test.load("lofi_char.png",2, 16,320, 280, 16,16))
 		{
 			cout <<"error loading image\n";
 		}

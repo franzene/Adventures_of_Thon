@@ -13,10 +13,12 @@ public:
 	char lastdir;
 	void find_dir();
 	sf::Vector2f getSpritePos();	
+	bool not_working;
+	int dir;
+
 private:
 	sf::Clock clock;
 	sf::Time elapsedTime;
 	float tempSpeed;
-	char dir;
 
 };

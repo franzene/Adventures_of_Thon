@@ -1,0 +1,20 @@
+﻿Build started 9/20/2014 1:00:43 PM.
+     1>Project "C:\Users\Ericp_000\Adventures_of_Thon\Adventures_of_Thon\Adventures_of_Thon.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\SFML-2.1\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt object_npc.cpp
+         object_npc.cpp
+     1>c:\users\ericp_000\adventures_of_thon\adventures_of_thon\object_npc.cpp(21): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\ericp_000\adventures_of_thon\adventures_of_thon\object_npc.cpp(22): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ericp_000\Adventures_of_Thon\Debug\Adventures of Thon.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\SFML-2.1\lib" "sfml-system-d.lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-network-d.lib" "sfml-audio-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ericp_000\Adventures_of_Thon\Debug\Adventures of Thon.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ericp_000\Adventures_of_Thon\Debug\Adventures of Thon.lib" /MACHINE:X86 Debug\drawmap.obj
+         Debug\main.obj
+         Debug\object.obj
+         Debug\object_npc.obj
+         Debug\object_player.obj
+         Debug\player_projectile.obj
+         Adventures_of_Thon.vcxproj -> C:\Users\Ericp_000\Adventures_of_Thon\Debug\Adventures of Thon.exe
+     1>Done Building Project "C:\Users\Ericp_000\Adventures_of_Thon\Adventures_of_Thon\Adventures_of_Thon.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.98
